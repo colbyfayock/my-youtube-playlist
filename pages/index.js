@@ -1,7 +1,20 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const YOUTUBE_PLAYLIST_ITEMS_API = 'https://www.googleapis.com/youtube/v3/playlistItems';
+
+export async function getServerSideProps() {
+  const res = await fetch(`${YOUTUBE_PLAYLIST_ITEMS_API}?part=snippet&maxResults=50&playlistId=PLFsfg2xP7cbLuAglQob6zjS4nVbyAfSVV&key=${process.env.YOUTUBE_API_KEY}`)
+  const data = await res.json();
+  return {
+    props: {
+      data
+    }
+  }
+}
+
+export default function Home({ data }) {
+  console.log('data', data);
   return (
     <div className={styles.container}>
       <Head>

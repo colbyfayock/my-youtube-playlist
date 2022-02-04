@@ -1,14 +1,17 @@
-# Next.js YouTube Playlist Demo
+# YouTube Playlist Gallery in React with the YouTube API & Next.js
 
-Demo for tutorials that help you learn how to use the YouTube API to create a playlist in Next.js.
+Demo for tutorial [How to Add a YouTube Playlist to a Next.js React App with the YouTube API](https://www.youtube.com/watch?v=8YWrmZoUYGs)
 
-Learn how to create your own with [How to Use the YouTube API in React to Add a Playlist to a Next.js App](https://www.youtube.com/watch?v=8YWrmZoUYGs)
+🚀 See Demo: https://my-youtube-playlist.netlify.app/
 
-## Getting started locally
-* `yarn install`
-* `yarn dev`
-* 🚀
+📝 Article: https://www.freecodecamp.org/news/how-to-add-a-youtube-playlist-to-a-nextjs-react-app-with-the-youtube-api/
+
+📺 YouTube: https://www.youtube.com/watch?v=8YWrmZoUYGs
 
 ## More tutorials and walkthroughs
-* [Follow me on Twitter](https://twitter.com/colbyfayock)
-* [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
+
+📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)
